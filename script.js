@@ -55,7 +55,7 @@
         console.log(evolvePic);
     }
 
-    document.getElementById("submitPoke").addEventListener("click", function () {
+    document.getElementById("searchPoke").addEventListener("click", function () {
         getID = (document.getElementById("inputPoke").value).toLowerCase()
         api_url = 'https://pokeapi.co/api/v2/pokemon/' + getID;
         api_urlDex = 'https://pokeapi.co/api/v2/pokemon-species/' + getID;
