@@ -2,7 +2,8 @@ body {
     padding-top: 200px;
     margin-left: 400px;
     margin-right: 400px;
-    background-color: black;
+    background-image: url("https://www.desktopbackground.org/download/1920x1080/2015/06/04/959070_pokemon-clouds-pixel-art_1920x1200_h.png");
+    background-position: center;
     color: white;
     font-family: 'Press Start 2P', cursive;
 }
