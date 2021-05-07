@@ -48,6 +48,7 @@ input{
     display: inline-block;
     border: solid 10px #d92626;
     border-radius: 5px;
+    padding-bottom: 50px;
 
 }
 
@@ -60,4 +61,5 @@ input{
     display: inline-block;
     border: solid 10px #d92626;
     border-radius: 5px;
+    padding-bottom: 50px;
 }
