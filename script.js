@@ -23,7 +23,13 @@
         console.log(pokeMove4);
 
         getDataDex()
-
+        document.getElementById("pokeName").textContent= capitalize(pokeName);
+        document.getElementById("pokeID").textContent= pokeID;
+        document.getElementById("pokeMove1").textContent= capitalize(pokeMove1);
+        document.getElementById("pokeMove2").textContent= capitalize(pokeMove2);
+        document.getElementById("pokeMove3").textContent= capitalize(pokeMove3);
+        document.getElementById("pokeMove4").textContent= capitalize(pokeMove4);
+        document.getElementById("pokeSprite").src = pokeSprite;
 
 
     }
@@ -55,5 +61,9 @@
         api_urlDex = 'https://pokeapi.co/api/v2/pokemon-species/' + getID;
         getData()
     })
+    const capitalize = (s) => {
+        if (typeof s !== 'string') return ''
+        return s.charAt(0).toUpperCase() + s.slice(1)
+    }
 
 })();

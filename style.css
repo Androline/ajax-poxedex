@@ -8,7 +8,7 @@ body {
     font-family: 'Press Start 2P', cursive;
 }
 
-button{
+button {
     display: inline-block;
     background-color: #e3cd2d;
     border-radius: 10px;
@@ -21,7 +21,7 @@ button{
     margin-bottom: 5px;
 }
 
-input{
+input {
     background-color: #ffffff;
     border-radius: 10px;
     border: solid 4px #ffffff;
@@ -38,6 +38,7 @@ input{
     padding-top: 20px;
     padding-bottom: 100px;
 
+
 }
 
 .leftSide {
@@ -50,7 +51,6 @@ input{
     border: solid 10px #d92626;
     border-radius: 5px;
     padding-bottom: 50px;
-
 }
 
 .rightSide {
@@ -63,4 +63,21 @@ input{
     border: solid 10px #d92626;
     border-radius: 5px;
     padding-bottom: 50px;
+    padding-right: 50px;
+    white-space: nowrap;
+
 }
+
+.pokeSprite {
+    width: 200px;
+    height: auto;
+
+}
+
+img {
+    width: 100%;
+    height: auto;
+    padding-top: 16px;
+    padding-left: 60px;
+}
+
