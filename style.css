@@ -50,7 +50,7 @@ input {
 }
 
 .leftSide {
-    background-color: #d92626;
+    background-image: linear-gradient(#d92626, #e24545);
     float: left;
     box-sizing: border-box;
     height: 100%;
@@ -59,10 +59,11 @@ input {
     border: solid 10px #d92626;
     border-radius: 5px;
     padding-bottom: 50px;
+    border-right: hidden;
 }
 
 .rightSide {
-    background-color: #d92626;
+    background-image: linear-gradient(#d92626, #e24545);
     float: right;
     box-sizing: border-box;
     height: 100%;
@@ -73,6 +74,7 @@ input {
     padding-bottom: 50px;
     padding-right: 50px;
     white-space: nowrap;
+    border-left: hidden;
 
 }
 
